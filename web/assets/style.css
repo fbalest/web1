@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('fonts/custom-font.ttf') format('truetype');
+}
+
+body {
+    font-family: 'CustomFont', sans-serif;
+    background: url('images/logo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    margin: 100px auto;
+    width: 300px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+}
